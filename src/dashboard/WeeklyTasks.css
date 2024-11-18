@@ -1,0 +1,12 @@
+.scroll-container {
+    -webkit-overflow-scrolling: touch; 
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; 
+}
+
+.scroll-container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
